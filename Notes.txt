@@ -1,0 +1,25 @@
+Rapport: qqes copies d'ecrans, manuel utilisateur
+
+Soutenance: Montrer qqes exemples d'utilisation
+
+créer un json
+
+canvas pour montrer le résultat du vote(histogramme)
+
+liste d'electeurs
+
+l'oranisateur peut voter
+
+scrutin = 3 elements renseigné par l'organisateur
+question ; des options(= choix de reponses) ; liste de votants(0,1 ou 2 procurations)
+
+les votants(organisateur aussi), pourront consulter le tx de participation et le nom de l'organisateur
+
+fermer le scrutin affiche les résultats
+
+login/mdp avec les sessions
+
+Vote a bulletin secret
+
+Retirer/ajouter des votants aux listes predefinies, créer de nouvelles listes
+un fichier json par srcutin

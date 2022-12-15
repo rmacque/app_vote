@@ -1,0 +1,77 @@
+body{
+    background-color: #3c0621;
+}
+
+fieldset{
+	background-color: #b75f8c;
+}
+
+legend{
+	background-color: white;
+	border-style: outset;
+}
+
+table{
+	margin: auto;
+}
+
+select{
+	width: 177px;
+}
+
+#creationScrutin li{
+	margin:5px;
+}
+
+#creationScrutin ul li{
+	width: 180px;
+}
+
+#Scrutin td{
+	padding: 7px 1px;
+}
+
+.bouton_generique {
+	margin : 15px;
+	color: green;
+	background-color: lightskyblue;
+}
+
+.organisateur{
+	color:red;
+}
+
+.participant{
+	color:brown;
+}
+
+.plus, .moins{
+	margin: 2px 5px;
+	width: 23px;
+}
+
+.procuration{
+	background-color: #dede3b;
+}
+
+.warning{
+	text-align: #ca2803;
+	color: red;
+}
+
+.message{
+	color: lightgreen;
+}
+
+#Application {
+    text-align: center;
+    margin: 50px 110px;
+}
+
+#question {
+	width: 555px;
+}
+
+#nomScrutin{
+	background-color: #dede3b; 
+}
