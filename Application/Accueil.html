@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Scrutin</title>
+  <link rel="stylesheet" href="Accueil.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts/javascript/connexion.js"></script>
+  <script src="scripts/javascript/creerScrutin.js"></script>
+  <script src="scripts/javascript/inscription.js"></script>
+  <script src="scripts/javascript/procurations.js"></script>
+  <script src="scripts/javascript/scrutins.js"></script>
+</head>
+
+<body>
+  <div id="Application">
+    <fieldset id="Connexion">
+      <legend>Connexion</legend>
+      <table>
+        <tr>
+          <td>Login:</td>
+          <td><input type="text" id="login" value=""></td>
+        </tr>
+        <tr>
+          <td>Mot de passe:</td>
+          <td><input type="password" id="password" value="" minlength="6"></td>
+        </tr>
+      </table>
+      <button class="bouton_generique" onclick="connexion()"> Se Connecter </button>
+      <button class="bouton_generique" onclick="I_Inscription()"> Inscription </button>
+      <br>
+      <div id="message_C" class="warning"></div>
+    </fieldset>
+  </div>
+  <div id="message_A" class="warning"></div>
+
+</body>
+
+</html>
